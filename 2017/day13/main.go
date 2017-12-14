@@ -95,9 +95,9 @@ Loop:
 }
 
 func main() {
-	fmt.Println("Test1: ", Severity("0: 3\n1: 2\n4: 4\n6: 4"))
-	fmt.Println("Part1: ", Severity(input))
-	fmt.Println("Test2: ", Invisible("0: 3\n1: 2\n4: 4\n6: 4", 1))
+	//fmt.Println("Test1: ", Severity("0: 3\n1: 2\n4: 4\n6: 4"))
+	//fmt.Println("Part1: ", Severity(input))
+	//fmt.Println("Test2: ", Invisible("0: 3\n1: 2\n4: 4\n6: 4", 1))
 	fmt.Println("Part2: ", Invisible(input, 2))
 }
 
